@@ -1,13 +1,13 @@
 # My first personal portfolio website
 
 ### Short project description
-This is a 7-page responsive personal portfolio website built with HTML and CSS. It showcases my background, projects, learning journey, interests, and contact info as part of the Life Choices Academy.
+This is a 6-page responsive personal portfolio website built with HTML and CSS. It showcases my background, projects, learning journey, interests, and contact info as part of the Life Choices Academy.
 
 ### Purpose of the website
 To create a professional online presence that demonstrates my web development skills and shares my journey from being a graduate in a different field to now an aspiring tech savy individual.
 
 ### Features
-- Responsive navigation across 7 pages.
+- Responsive navigation across 6 pages.
 
 - An about me section with a profile picture and bio using flexbox.
 
