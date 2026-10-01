@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Personal Portfolio Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <!-- Navigation -->
-   <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="education.html">Learning Journey</a></li>
-      <li><a href="gallery.html">Interests</a></li>
-      <li><a href="reflection.html">Reflection</a></li>
-    </ul>
-   </nav>
-   <!-- Gallery Content -->
-   <div class="container">
+<template>
+  <div class="container">
      <section id="gallery">
        <h2>My Interests & Gallery</h2>
        <p>I enjoy activities that build focus and creativity. This helps me stay inspired and brings a fresh perspective to my work.</p>
@@ -43,7 +22,7 @@
             <p>Reading books to obtain more knowledge.</p>
           </div>
           <div class="card pop delay-4">
-            <img src="https://i.ibb.co/QjDKyHKp/opera-singing.webp" alt="opera singing" border="0"></a>
+            <img src="https://i.ibb.co/QjDKyHKp/opera-singing.webp" alt="opera singing" border="0">
             <p>Performing to express myself in a creative manner.</p>
           </div>
           <div class="card pop delay-5">
@@ -52,8 +31,8 @@
           </div>
        </div>
      </section>
-   </div>
-    <footer>
-      <p>&copy; 2026 My Portfolio - Lisekho S Smith. Built while learning web development at Life Choices Academy.</p>
-</body>
-</html>
+  </div>
+   <footer>
+    <p>&copy; 2026 My Portfolio - Lisekho Smith</p>
+   </footer>
+</template>

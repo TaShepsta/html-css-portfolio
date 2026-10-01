@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Personal Portfolio Website</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <!-- Navigation -->
-   <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="education.html">Learning Journey</a></li>
-      <li><a href="gallery.html">Interests</a></li>
-      <li><a href="reflection.html">Reflection</a></li>
-    </ul>
-   </nav>
-<!-- Education Section -->
-   <div class="container">
-
-    <section id="education">
+<template>
+  <div class="container">
+       <section id="education">
       <h2>Learning Journey</h2>
       <div class="timeline">
         <div class="item slide-in-left">
@@ -39,10 +17,8 @@
         </div>
       </div>
     </section>
-
-   </div>
+  </div>
    <footer>
-    <p>&copy; 2026 My Portfolio - Lisekho S Smith. Built while learning web development at Life Choices Academy.</p>
-  </footer>
-</body>
-</html>
+    <p>&copy; 2026 My Portfolio - Lisekho Smith</p>
+   </footer>
+</template>
